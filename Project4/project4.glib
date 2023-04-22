@@ -1,0 +1,50 @@
+##OpenGL GLIB
+
+Perspective 90
+LookAt 0 0 2  0 0 0  0 1 0
+
+
+CubeMap 6 kec.posx.bmp kec.negx.bmp  kec.posy.bmp kec.negy.bmp   kec.posz.bmp kec.negz.bmp
+
+CubeMap 7 kec.posx.bmp kec.negx.bmp  kec.posy.bmp kec.negy.bmp   kec.posz.bmp kec.negz.bmp
+
+Vertex	pleatscube.vert
+Fragment	pleatscube.frag
+Program    	PleatsCube			\
+           	uReflectUnit 6             	\
+           	uRefractUnit 7             	\
+		uK <-.5 0. .5>			\
+		uP <0.2 1. 2.>			\
+        	uNoiseAmp <0. 0. 5.>		\
+        	uNoiseFreq <1.0 1.0 10.>	\
+		uEta <1. 1.2 4.>		\
+		uMix <0. 0. 1.>			\
+		uWhiteMix <0. 0.3 .6>
+
+PushMatrix
+Rotate -15   1 0 0
+QuadXY  -0.2  2.  300 300
+PopMatrix
+
+
+Vertex		texture.vert
+Fragment		texture.frag
+Program Texture	TexUnit 6
+
+Texture2D  6  kec.posx.bmp
+QuadYZ 5. 5. 10 10
+
+Texture2D  6  kec.negx.bmp
+QuadYZ -5. 5. 10
+
+Texture2D  6  kec.posy.bmp
+QuadXZ 5. 5. 10 10
+
+Texture2D  6  kec.negy.bmp
+QuadXZ -5. 5. 10 10
+
+Texture2D  6  kec.posz.bmp
+QuadXY 5. 5. 10 10
+
+Texture2D  6  kec.negz.bmp
+QuadXY -5. 5. 10 10

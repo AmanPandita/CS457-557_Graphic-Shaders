@@ -1,0 +1,5 @@
+
+ERROR: 0:42: 'uLevel' : undeclared identifier 
+ERROR: 0:42: '<<' : wrong operand types no operation '<<' exists that takes a left-hand operand of type 'const int' and a right operand of type 'float' (or there is no acceptable conversion)
+
+

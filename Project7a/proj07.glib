@@ -1,0 +1,16 @@
+##OpenGL GLIB
+Perspective 70
+LookAt  0 0 3     0 0 0    0 1 0
+
+Vertex   proj07.vert
+Geometry proj07.geom
+Fragment proj07.frag
+Program  Project07			\
+	uLevel <0 0 3>			\
+	uQuantize <2. 50. 50.>		\
+	uColor { 1.00 0.65 0.40 }	\
+	uLightX <-20. 0. 20.>       \
+    uLightY <-20. 5. 20.>       \
+    uLightZ <-20. 10. 20.>      \
+
+Obj bunny.obj

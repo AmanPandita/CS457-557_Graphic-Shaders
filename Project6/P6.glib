@@ -1,0 +1,18 @@
+##OpenGL GLIB
+LookAt  0 5 5 0 0 -2  0 1 0
+Perspective 70
+
+
+
+Vertex   P6.vert
+Geometry P6.geom
+Fragment P6.frag
+Program  Project                                       \
+        uNoiseAmp <0. 0. 1.>  uNoiseFreq <0. 1. 10.> 	\
+        uTol <0. 0. 1.>						\
+	   uAlpha <0. 1. 1.> 				     		\
+        uVelScale <1. 10. 10.>        
+
+
+Color .9 .7 .3
+Obj bunny.obj

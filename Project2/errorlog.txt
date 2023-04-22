@@ -1,0 +1,5 @@
+
+ERROR: 0:19: 'c0' : redefinition 
+ERROR: 0:20: 'c1' : redefinition 
+
+

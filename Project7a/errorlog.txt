@@ -1,0 +1,4 @@
+
+ERROR: 0:17: '=' : assigning non-constant to 'const 3-component vector of highp float'
+
+
