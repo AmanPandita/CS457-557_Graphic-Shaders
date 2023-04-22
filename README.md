@@ -1,11 +1,39 @@
-# CS557_Graphic-Shaders
+# CS557 Graphic Shaders Repository
 
-## Overview
+## Introduction
 
-The repository consists of projects created during Winter 2023 at Oregon State University. The aim of the repository is to provide a reference to graphic shaders community.
+Welcome to the **CS557 Graphic Shaders repository**! This collection of projects was developed during the Winter 2023 term at Oregon State University. The primary goal of this repository is to serve as a valuable resource for the graphics shaders community.
+
+## Featured Projects
+
+![Project Examples](https://user-images.githubusercontent.com/114523484/233772693-79d83f7d-9c31-4ec6-a08a-98601fc9aa65.png)
 
 
-## Projects Pursued:
-<img width="839" alt="image" src="https://user-images.githubusercontent.com/114523484/233771352-935aa69b-1838-4dad-88f2-c621bba34560.png">
+## Installation and Setup
 
+### GLMAN
 
+To begin working with these projects, follow these steps:
+
+1. Clone the repository using the `git clone` command.
+2. Utilize GLMAN to load and manage the projects.
+
+## Compatibility
+
+| Operating System | Compatibility |
+|------------------|---------------|
+| Windows          | ✅ Supported  |
+| macOS            | ❌ Not Supported |
+| Linux            | ❌ Not Supported |
+
+## Important Note for macOS and Linux Users
+
+Please be aware that GLMAN cannot be executed directly on macOS or Linux. We recommend using a Windows development environment instead.
+
+## Contributing
+
+We welcome contributions to improve and expand the repository.
+
+## Author
+
+This repository is developed by Aman Pandita.
