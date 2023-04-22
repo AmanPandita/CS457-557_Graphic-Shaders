@@ -8,6 +8,7 @@ Welcome to the **CS557 Graphic Shaders repository**! This collection of projects
 
 ![Project Examples](https://user-images.githubusercontent.com/114523484/233772693-79d83f7d-9c31-4ec6-a08a-98601fc9aa65.png)
 
+The individual project requirement is inside the respective project folders in a ".md file".
 
 ## Installation and Setup
 
